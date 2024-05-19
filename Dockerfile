@@ -4,6 +4,7 @@ WORKDIR /app
 #Install React CLI
 #RUN npm install -g @react/cli
 RUN npm install -g create-react-app
+#RUN npx create-react-app react-app
 
 #Install dependencies
 #COPY package.json yarn.lock ./
